@@ -3,6 +3,7 @@
     "node_modules/codelyzer"
   ],
   "rules": {
+    "extends": "eslint:recommended",
     "arrow-return-shorthand": true,
     "callable-types": true,
     "class-name": true,
@@ -48,6 +49,7 @@
     "no-bitwise": true,
     "no-console": [
       true,
+      "log",
       "debug",
       "info",
       "time",

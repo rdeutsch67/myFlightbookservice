@@ -9,6 +9,7 @@ export class CityPipe implements PipeTransform {
   transform(value: any, fmt: string): any {
     // fmt: short, long
     let short, long;
+    let Dummy3;
 
     switch(value) {
       case 'Graz':

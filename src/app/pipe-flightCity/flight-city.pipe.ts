@@ -1,5 +1,7 @@
 import { Pipe, PipeTransform} from '@angular/core';
 
+/* adf */
+
 @Pipe({
   name: 'flightCity',
   pure: true

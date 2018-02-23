@@ -18,7 +18,7 @@ export class CityPipe implements PipeTransform {
         short = 'GRZ';
         long = 'Flughafen Graz Thalerhof'
       break;
-      case 'Hamburt':
+      case 'Hamburg':
         short = 'HAM';
         long = 'Airport Hamburg Fulsbüttel Helmut Schmidt';
       break;

@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, Output, OnInit, OnChanges } from '@angular/core';
 
 @Component({
-  selector: 'flight-date-component',
+  selector: 'date-component',
   templateUrl: './date.component.html'
 })
 

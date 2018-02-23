@@ -1,9 +1,7 @@
 import { Pipe, PipeTransform} from '@angular/core';
 
-/* hello */
-
 @Pipe({
-  name: 'flightCity',
+  name: 'city',
   pure: true
 })
 
@@ -11,7 +9,6 @@ export class CityPipe implements PipeTransform {
   transform(value: any, fmt: string): any {
     // fmt: short, long
     let short, long;
-    let Dummy3, Dummy4;
 
     switch(value) {
       case 'Graz':

@@ -1,5 +1,5 @@
-///<reference path="../../../node_modules/@types/node/index.d.ts"/>
-import { Flight } from '../entities/flight';
+///<reference path="../../../../node_modules/@types/node/index.d.ts"/>
+import { Flight } from '../../entities/flight';
 import { Component, EventEmitter, Input, Output, OnInit, OnChanges } from '@angular/core';
 
 @Component({

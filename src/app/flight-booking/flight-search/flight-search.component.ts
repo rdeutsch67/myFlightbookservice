@@ -1,4 +1,4 @@
-import {Flight} from '../entities/flight';
+import {Flight} from '../../entities/flight';
 import {Component, NgModule} from '@angular/core';
 import {Http, Headers, URLSearchParams, Response} from '@angular/http';
 import 'rxjs/add/operator/map';
